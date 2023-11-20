@@ -30,7 +30,7 @@ namespace Lab_2
             { "StartOnPosition", new List<string>() },
             { "LastonPosition", new List<string>() }
         };
-        private ObservableCollection<ScientificWork> _results = new ObservableCollection<ScientificWork>(); 
+        private ObservableCollection<ScientificWorker> _results = new ObservableCollection<ScientificWorker>(); 
 
         public MainPage()
         {
