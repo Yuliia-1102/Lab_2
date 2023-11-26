@@ -190,13 +190,13 @@ namespace Lab_2
                         else
                         {
                             _error = "error";
-                            await DisplayAlert("Помилка", "Обраний файл не є XML-файлом.", "ОК");
+                            await DisplayAlert("Помилка", "Файл не є з XML-розширенням.", "ОК");
                         }
                     }
                     else
                     {
                         _error = "error";
-                        await DisplayAlert("Помилка", "Обраного файлу не існує.", "ОК");
+                        await DisplayAlert("Помилка", "Файлу не існує.", "ОК");
                     }
                 }
             }
@@ -217,7 +217,7 @@ namespace Lab_2
                 {
                     xct.Load(@"C:\Users\User\Source\Repos\Lab_2\XSLTFile1.xslt");
                     xct.Transform(_filePath, fHTML);
-                    await DisplayAlert("Інформація", "Трансформація файлу успішна", "ОК");
+                    await DisplayAlert("Інформація", "Трансформацію файлу закінчено", "ОК");
                 }
                 catch (Exception ex)
                 {
