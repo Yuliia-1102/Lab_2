@@ -124,9 +124,8 @@ namespace Lab_2
             XmlDocument doc = new XmlDocument();
             doc.Load(xmlPath);
 
-            
             XmlElement xRoot = doc.DocumentElement;
-            XmlNodeList childNodes = xRoot.SelectNodes("ScientificWork");
+            XmlNodeList childNodes = xRoot.SelectNodes("ScientificWorker");
 
             for (int i = 0; i < childNodes.Count; i++) 
             {
