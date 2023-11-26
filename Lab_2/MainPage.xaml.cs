@@ -212,10 +212,10 @@ namespace Lab_2
             if(!string.IsNullOrEmpty(_filePath) && string.IsNullOrEmpty(_error))
             {
                 XslCompiledTransform xct = new XslCompiledTransform();
-                string fHTML = @"C:\Users\Admin\OOP_tasks\Lab_2\Lab_2\HTMLFile.html";
+                string fHTML = @"C:\Users\User\Source\Repos\Lab_2\HTMLFile.html";
                 try
                 {
-                    xct.Load(@"C:\Users\Admin\OOP_tasks\Lab_2\Lab_2\XSLTFile1.xslt");
+                    xct.Load(@"C:\Users\User\Source\Repos\Lab_2\XSLTFile1.xslt");
                     xct.Transform(_filePath, fHTML);
                     await DisplayAlert("Інформація", "Трансформація файлу успішна", "ОК");
                 }
