@@ -18,17 +18,6 @@
                     FlexLayout.AlignSelf="Start"
                     MaximumHeightRequest="50" 
                     BorderColor="DeepPink" />
-                <Button 
-                    Text="Help"
-                    Clicked="OnHelpBtnClicked"
-                    BackgroundColor="Transparent"
-                    TextColor="Black"
-                    FontAttributes="Bold"
-                    FontSize="13"
-                    HorizontalOptions="StartAndExpand"
-                    FlexLayout.AlignSelf="Start"
-                    MaximumHeightRequest="50" 
-                    BorderColor="DeepPink" />
             </FlexLayout>
             <StackLayout x:Name="filters" IsVisible="false" Margin="0,50,0,0">
                 <Grid 
