@@ -206,16 +206,6 @@ namespace Lab_2
                 await DisplayAlert("Помилка", $"{ex.Message}", "ОК");
             }
         }
-
-        async private void OnHelpBtnClicked(object sender, EventArgs e)
-        {
-            await DisplayAlert("Інформація",
-                "Оберіть XML-файл на вашому комп'ютері. " +
-                "Виберіть критерії пошуку та спосіб обробки документа та натисність кнопку 'Пошук' (за замовчуванням, якщо критерії пошуку не обрані, відображається весь вмість документа, а спосіб обробки - DOM). " +
-                "Також Ви можете трансформувати обраний документ в HTML-файл або ж очистити критерії пошуку.",
-                "ОК");
-        }  
-
         
         private async void OnTransformBtnClicked(object sender, EventArgs e)
         {
