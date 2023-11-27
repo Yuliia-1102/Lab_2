@@ -83,7 +83,7 @@
                         FontSize="12" 
                         Grid.Row="1" 
                         BackgroundColor="LightCoral"
-                        Grid.Column="0" 
+                        Grid.Column="2" 
                         WidthRequest="200"
                         HeightRequest="65"/>
                     <Picker 
@@ -241,7 +241,7 @@
                                         </FlexLayout>
                                         <FlexLayout Direction="Row" Margin="0, 3, 0, 0">
                                             <Label HorizontalOptions="Center" Text="Стать: " FontAttributes="Bold" Margin="0, 0, 2, 0"/>
-                                            <Label HorizontalOptions="Center" Text="{Binding CustomerName}" />
+                                            <Label HorizontalOptions="Center" Text="{Binding Age}" />
                                         </FlexLayout>
                                         <FlexLayout Direction="Row" Margin="0, 3, 0, 0">
                                             <Label HorizontalOptions="Center" Text="Адреса науковця: " FontAttributes="Bold" Margin="0, 0, 2, 0"/>
